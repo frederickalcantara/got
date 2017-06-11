@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Of Thrones</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="row head">
+            <h1 class="heading">Best Characters</h1>
+        </div>
+        <div class="row">
+            <nav>
+                <button class="btn btn-default" data-id="0">Arya Stark</button>
+                <button class="btn btn-warning" data-id="1">Petyr Baelish</button>
+                <button class="btn btn-danger" data-id="2">Tyrion Lannister</button>
+                <button class="btn btn-black" data-id="3">Daenarys Targaryn</button>
+                <button class="btn btn-default" data-id="4">Bran Stark</button>
+                <button class="btn btn-default" data-id="5">Sansa Stark</button>
+                <button class="btn btn-default" data-id="6">Jon Snow</button>
+            </nav>
+        </div>
+        <section class="container-fluid hidden" id="character">
+        <p>Name: <span id="name"></span></p>
+        <p>Allegiance: <span id="alliance"></span></p>
+        <p>Born: <span id="born"></span></p>
+        <p>Died: <span id="death"></span></p>
+        <p>Culture: <span id="culture"></span></p>
+        <p>Title: <span id="title"></span></p>
+        <p>Alias: <span id="alias"></span></p>
+        <p>Spouse: <span id="spouse"></span></p>
+        <p>Seasons: <span id="season"></span></p>
+        <p>Played by: <span id="actor"></span></p>
+        </section>
+    </div>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
