@@ -1,0 +1,62 @@
+body {
+    background-image: url("throne1.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.heading {
+    color: #fff;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+.head {
+    margin-top: 2.5em;
+    margin-bottom: 1em;
+}
+
+.btn-default {
+    color: #444444;
+}
+
+.btn-black {
+    background-color: #000;
+    color: #cc3d30;
+}
+
+.btn-black:hover {
+    color: #fff;
+    background-color: #141414;
+}
+
+.btn-black:focus {
+    color: #fff !important;
+}
+
+.btn-danger {
+    color: #F0E68C;
+}
+
+.btn-warning {
+    color: #111;
+}
+
+.btn:hover {
+    text-decoration: underline;
+}
+
+#character {
+    background-color: rgba(233, 233, 233, 0.7);
+    padding: 25px 20px;
+    margin: 60px auto 0px auto;
+    color: #000;
+}
+
+.hidden {
+    opacity: 0;
+}
